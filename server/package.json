@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-socketio-chat-server",
+  "version": "1.0.0",
+  "description": "real time chat with nodejs and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wes Pickett",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.2",
+    "socket.io": "^1.3.6"
+  }
+}

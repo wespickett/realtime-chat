@@ -1,0 +1,7 @@
+<template>
+    <section>
+        <div repeat.for="room of rooms">
+            <button click.trigger="$parent.openRoom(room.roomId)">${room.name}</button>
+        </div>
+    </section>
+</template>

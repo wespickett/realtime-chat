@@ -1,0 +1,7 @@
+<link rel="stylesheet" type="text/css" href="./styles.css">
+
+<template>
+    <div class="popup-chat-room" repeat.for="roomId of chatRoomsApi._openRoomIds">
+        <chat-room value.bind="$parent.chatRoomsApi._allRooms[roomId]"></chat-room>
+    </div>
+</template>

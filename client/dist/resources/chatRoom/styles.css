@@ -1,0 +1,21 @@
+chat-room ul {
+    height: 350px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+chat-room ul li{
+    list-style-type: none;
+}
+
+chat-room form {
+    height: 50px;
+}
+
+chat-room form input {
+    height: 30px;
+    line-height: 20px;
+    width: 225px;
+}

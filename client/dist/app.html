@@ -1,0 +1,18 @@
+<link rel="stylesheet" type="text/css" href="./app.css">
+
+<template>
+  <require from='./nav-bar'></require>
+
+  <nav-bar router.bind="router"></nav-bar>
+
+  <div class="page-host">
+    <form submit.trigger="changeUsername()">
+        <input type="text" value.bind="username" />
+        <button type="submit">Change Username</button>
+    </form>
+
+    <router-view></router-view>
+
+     <chat-rooms value.bind="chatRooms"></chat-rooms>
+  </div>
+</template>

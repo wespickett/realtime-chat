@@ -1,0 +1,14 @@
+<link rel="stylesheet" type="text/css" href="./styles.css">
+
+<template>
+    <ul>
+        <li repeat.for="message of roomMessages">
+            ${message.userName}: ${message.message}
+        </li>
+    </ul>
+
+    <form submit.trigger="send()">
+        <input type="text" value.bind="newMessage">
+        <button type="submit">Send</button>
+    </form>
+</template>
