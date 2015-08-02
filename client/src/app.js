@@ -1,6 +1,3 @@
-import 'bootstrap';
-import 'bootstrap/css/bootstrap.css!';
-
 export var username = 'Wes'; 
 
 export class App {
@@ -22,6 +19,12 @@ export class App {
                 moduleId: './home',
                 nav: true,
                 title: 'Chat Rooms'
+            },
+            {
+                route: ['other'],
+                moduleId: './other',
+                nav: true,
+                title: 'Another Page'
             }
         ]);
 
