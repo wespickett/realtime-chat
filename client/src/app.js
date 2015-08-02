@@ -1,3 +1,6 @@
+import 'bootstrap';
+import 'bootstrap/css/bootstrap.css!';
+
 export var username = 'Wes'; 
 
 export class App {
