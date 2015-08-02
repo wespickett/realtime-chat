@@ -4,6 +4,7 @@ chat-room ul {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    background-color: white;
 }
 
 chat-room ul li{

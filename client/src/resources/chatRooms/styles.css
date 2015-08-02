@@ -1,4 +1,6 @@
 .popup-chat-room {
     height: 400px;
     width: 300px;
+    background-color: lightblue;
+    padding: 5px;
 }
