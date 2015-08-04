@@ -27,7 +27,7 @@ class ChatMessageHandler {
 
 
     constructor() {
-        this.socket = io('http://localhost:8888');
+        this.socket = io();
 
         this.socket.on('chatMessage', function(msg){
             chatMessages.addMessage(msg.roomId, msg);
